@@ -1,0 +1,2 @@
+# No external Python packages required.
+# This file is intentionally present so Railway/Nixpacks detects this as a Python app.
