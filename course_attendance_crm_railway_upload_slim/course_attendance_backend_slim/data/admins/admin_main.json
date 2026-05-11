@@ -1,0 +1,11 @@
+{
+  "id": "admin_main",
+  "role": "admin",
+  "firstName": "Smart",
+  "lastName": "Admin",
+  "username": "admin",
+  "passwordHash": "$2a$10$BfMe/1QG.LTncHYHQ7LxiuVXxe3qz0Pku0b3ULEeAviQJURQXvkSO",
+  "phone": "+998 90 000 00 00",
+  "createdAt": "2026-05-11T07:56:24.748Z",
+  "updatedAt": "2026-05-11T07:56:24.748Z"
+}

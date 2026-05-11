@@ -1,0 +1,12 @@
+{
+  "id": "student_demo_2",
+  "role": "student",
+  "firstName": "Madina",
+  "lastName": "Sobirova",
+  "username": "madina",
+  "passwordHash": "$2a$10$XN9M/h5kODCHZPC07QqMje5e82ufLR3VtO5.vAYeft4TEfQTlQDBa",
+  "phone": "+998 93 222 33 44",
+  "groupId": "group_demo_1",
+  "createdAt": "2026-05-11T07:56:25.037Z",
+  "updatedAt": "2026-05-11T07:56:25.037Z"
+}

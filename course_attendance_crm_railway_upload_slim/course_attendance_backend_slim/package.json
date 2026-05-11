@@ -1,0 +1,22 @@
+{
+  "name": "course-attendance-backend-full",
+  "version": "2.1.0",
+  "description": "Production-ready minimal course attendance CRM for learning centers with Node/Express, file database, backup/restore, XLSX/PDF export UI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "archiver": "^7.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "multer": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
