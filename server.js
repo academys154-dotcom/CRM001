@@ -11,7 +11,10 @@ const AdmZip = require('adm-zip');
 
 const app = express();
 const PORT = Number(process.env.PORT || 3000);
-const HOST = process.env.HOST || '0.0.0.0';
+// Railway healthcheck can only reach the app if it listens on 0.0.0.0.
+// If HOST is accidentally set to localhost/127.0.0.1/domain in Railway, the deploy starts but healthcheck fails.
+const IS_RAILWAY = Boolean(process.env.RAILWAY_ENVIRONMENT || process.env.RAILWAY_SERVICE_ID || process.env.RAILWAY_PROJECT_ID);
+const HOST = IS_RAILWAY ? '0.0.0.0' : (process.env.HOST || '0.0.0.0');
 const DATA_DIR = path.resolve(process.env.DATA_DIR || process.env.RAILWAY_VOLUME_MOUNT_PATH || path.join(__dirname, 'data'));
 const UPLOAD_DIR = path.resolve(process.env.UPLOAD_DIR || path.join(DATA_DIR, '_tmp_uploads'));
 const PUBLIC_DIR = path.join(__dirname, 'public');

@@ -1,0 +1,14 @@
+{
+  "id": "group_demo_1",
+  "name": "IELTS Foundation A1",
+  "teacherIds": [
+    "teacher_demo_1"
+  ],
+  "studentIds": [
+    "student_demo_1",
+    "student_demo_2",
+    "student_demo_3"
+  ],
+  "createdAt": "2026-05-11T07:56:25.111Z",
+  "updatedAt": "2026-05-11T07:56:25.111Z"
+}
