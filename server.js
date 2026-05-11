@@ -1,4 +1,9 @@
-require('dotenv').config();
+try {
+  require('dotenv').config();
+} catch (_) {
+  // dotenv is optional on Railway because environment variables are provided by the platform.
+}
+
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
