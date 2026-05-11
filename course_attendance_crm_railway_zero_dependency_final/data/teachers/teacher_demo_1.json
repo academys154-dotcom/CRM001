@@ -1,0 +1,11 @@
+{
+  "id": "teacher_demo_1",
+  "role": "teacher",
+  "firstName": "Azizbek",
+  "lastName": "Karimov",
+  "username": "ustoz1",
+  "passwordHash": "sha256$64a9917e402fae1b75c2b3073ed6ec3d$ba114a1cea3be670c8ac68706bfed39f67b09091277190cc38bb26f8685285b8",
+  "phone": "+998 90 123 45 67",
+  "createdAt": "2026-05-11T16:18:35.516Z",
+  "updatedAt": "2026-05-11T16:18:35.516Z"
+}

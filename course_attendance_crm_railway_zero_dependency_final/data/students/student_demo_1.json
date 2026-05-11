@@ -1,0 +1,12 @@
+{
+  "id": "student_demo_1",
+  "role": "student",
+  "firstName": "Jasur",
+  "lastName": "Aliyev",
+  "username": "jasur",
+  "passwordHash": "sha256$14db1ed8b78fb8ae8e07302db96b44c4$6ad429fd22a8deb7dc840c0f269034e2ea7891225461e28b605914e946e1e6d9",
+  "phone": "+998 91 111 22 33",
+  "groupId": "group_demo_1",
+  "createdAt": "2026-05-11T16:18:35.517Z",
+  "updatedAt": "2026-05-11T16:18:35.517Z"
+}

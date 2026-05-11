@@ -1,0 +1,13 @@
+{
+  "name": "course-attendance-crm-railway-no-deps",
+  "version": "3.0.0",
+  "description": "Railway-ready O'quv markaz Davomat CRM. No external npm dependencies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
